@@ -15,6 +15,8 @@ public class AccountSetup{
             pass= input.nextLine();
             length=pass.length();
         }
+        user= user.toLowerCase();
+        pass=pass.toLowerCase();
         System.out.print("your username is "+user+" and you password is "+pass);
 
 
